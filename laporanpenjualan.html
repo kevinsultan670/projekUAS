@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diagram Laporan Penjualan Mobil</title>
+    <link rel="stylesheet" href="css/laporanpenjualan.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="js/laporanpenjualan.js"></script>
+  </head>
+  <body>
+    <h1>Laporan Penjualan Mobil - 5 Tahun Terakhir</h1>
+    <canvas id="salesChart"></canvas>
+    <br />
+    <button onclick="window.location.href='protofolio.html'">
+      Kembali ke Beranda
+    </button>
+    <h2>Detail Penjualan Per Bulan (Tahun 2023)</h2>
+    <table id="salesTable">
+      <thead>
+        <tr>
+          <th>Bulan</th>
+          <th>Jumlah Penjualan</th>
+          <th>Penghasilan (Rp)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data akan diisi oleh JavaScript -->
+      </tbody>
+    </table>
+  </body>
+</html>
